@@ -150,7 +150,7 @@ var group_Basemap = new ol.layer.Group({
                                 layers: [lyr_OSMStandard_0,],
                                 title: "Basemap"});
 
-lyr_OSMStandard_0.setVisible(true);lyr_April2020_1.setVisible(false);lyr_March2010_2.setVisible(false);lyr_March1990_3.setVisible(false);lyr_Pallikaranai2020_4.setVisible(true);lyr_Pallikaranai2010_5.setVisible(true);lyr_Pallikaranai1990_6.setVisible(true);lyr_DumpingYard_7.setVisible(false);lyr_Railways_8.setVisible(false);lyr_Roads_9.setVisible(false);
+lyr_OSMStandard_0.setVisible(true);lyr_April2020_1.setVisible(false);lyr_March2010_2.setVisible(false);lyr_March1990_3.setVisible(true);lyr_Pallikaranai2020_4.setVisible(false);lyr_Pallikaranai2010_5.setVisible(false);lyr_Pallikaranai1990_6.setVisible(true);lyr_DumpingYard_7.setVisible(false);lyr_Railways_8.setVisible(false);lyr_Roads_9.setVisible(false);
 var layersList = [group_Basemap,group_Satellite,group_Boundary,group_Infrastructure];
 lyr_Pallikaranai2020_4.set('fieldAliases', {'OID_': 'OID_', 'Name': 'Name', 'Area_sqkm': 'Area_sqkm', });
 lyr_Pallikaranai2010_5.set('fieldAliases', {'OID_': 'OID_', 'Name': 'Name', 'Area_sqkm': 'Area_sqkm', });
