@@ -391,7 +391,7 @@ map.on("rendercomplete", function(evt) {
         var dataattributionList = dataattribution.getElementsByTagName('ul')[0];
         var dataLayerAttribution = dataattributionList.getElementsByTagName('li')[0];
         var dataAttribution = document.createElement('li');
-        dataAttribution.innerHTML = '<a href="https://careearthtrust.org/">Marsh data@Care Earth Trust;</a>';
+        dataAttribution.innerHTML = '<a href="https://careearthtrust.org/">Marsh data by Care Earth Trust;</a>';
         dataattributionList.insertBefore(dataAttribution, dataLayerAttribution);
         var mapAttribution = document.createElement('li');
         mapAttribution.innerHTML = '<a href="https://www.techforwildlife.com/">Map built by www.techforwildlife.com;</a>';
