@@ -26,13 +26,13 @@ var map = new ol.Map({
     renderer: 'canvas',
     overlays: [overlayPopup],
     layers: layersList,
+    interactions: ol.interaction.defaults({dragPan: false, mouseWheelZoom: false, doubleClickZoom: false}),
     view: new ol.View({
-        maxZoom: 27, minZoom: 12, projection: new ol.proj.Projection({
-           code: 'EPSG:4326',zoom: 11,
+        maxZoom: 6, minZoom: 3, projection: new ol.proj.Projection({
+           code: 'EPSG:4326',zoom: 5,
            //extent:[ 63.08520562500001,3.5753789374999982,99.99926812500001,38.3800664375],
-           extent:[ -177.82299749999999,-88.13848825,179.36450250000001,86.58807425],
-            //extent:[80.0503303186237076,12.8530068635473693, 80.2960803885953283,13.0236217427454957],
-           //extent: [-20037508.342789, -20037508.342789, 20037508.342789, 20037508.342789],
+           //extent:[ -177.82299749999999,-88.13848825,179.36450250000001,86.58807425],
+           extent:[79.7561365292601891,12.7215034066423751,80.4773277149650710,13.1414478768655343],
            units: 'degrees'})
    })
 });
